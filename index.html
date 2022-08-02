@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>myTodoList</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <h3>
+            Buat setiap harimu teratur dengan
+            <strong>myTodoList</strong>
+          </h3>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Download Apps <a href="">Android</a>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container-fluid">
+      <div class="card ">
+        <div class="card-header text-center">Buat To do List</div>
+        <div class="card-body" id="bd-card">
+          
+    <div class="row">
+        <div class="col-sm-12 col-lg-6">
+            <div class="card p-2">
+                <form action="" id="form-list">
+                <label for="tulis-list" class="form-label">Hal apa yang ingin anda kerjakan?</label>
+                <input type="text" id="tulis-list" class="form-control">
+                <div id="helper" class="form-text">
+                  Tuliskan hal apapun yang ingin anda kerjakan hari ini!
+                </div>
+                <button class="btn btn-primary mt-4" type="submit">Tambahkan</button>
+            </form>
+            </div>
+
+        </div>
+        <div class="col-sm-12 col-lg-6">
+            <div class="card p-2">
+                <label for="inputPassword5" class="form-label">Kegiatan yang akan anda lakuka hari ini</label>
+                <input class="form-control " list="datalistOptions" id="cari-list" placeholder="Type to search...">
+                <button class="btn btn-danger mt-2" type="button" id="hapus-semua-list">Hapus Semua</button>
+                <ul class="list-group mt-4" id="list-kegiatan">
+                    
+                  
+                  </ul>
+                
+              
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
